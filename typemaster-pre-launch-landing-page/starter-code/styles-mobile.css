@@ -1,0 +1,226 @@
+/*4. stylesheet.css*/
+/*1. kies een schermgrootte -> desktop*/
+/*2. reset (optioneel *niet voor mij)*/
+/*3. layout: width & flow (flex box) -> *liever geen height als het kan!*/
+/*4. fonts & fontsize*/
+/*5. padding & margin*/
+/*6. kleurtjes*/
+/*7. overig*/
+
+:root {
+    /*colors*/
+    --orange: hsl(22, 89%, 52%);
+    --light-orange: hsl(22, 100%, 69%);
+    --dark-blue: hsl(220, 50%, 17%);
+    --light-blue: hsl(221, 23%, 58%);
+    --light-grey: hsl(198, 28%, 93%);
+    --white: hsl(0, 0, 100%);
+
+/*    typography*/
+    --font-family: 'Barlow', sans-serif;
+    --font-weight-XL: 900;
+    --font-weight-S: 500;
+    --font-weight-M: bold;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+/*body {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*padding: 24px;*/
+/*font-family: var(--font-family)*/
+/*}*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    font-family: var(--font-family);
+    overflow-x: hidden;
+}
+
+.header {
+    width: 327px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+
+}
+
+.header__logo {
+    width: 40px;
+    height: 40px;
+    background-color: var(--orange);
+}
+
+.logo__text {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--light-grey);
+    padding-left: 4px;
+}
+
+.btn {
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 11px;
+    border-style: none;
+}
+
+.btn--grey {
+    background-color: var(--light-grey);
+    color: var(--dark-blue);
+}
+
+.btn--grey:hover {
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.intro-main {
+    width: 327px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.intro-main p {
+    padding-left: 0;
+}
+
+.btn--orange {
+    background-color: var(--orange);
+    color: var(--light-grey);
+}
+
+.btn--orange:hover {
+    background-color: var(--light-orange);
+    color: var(--light-grey);
+}
+
+.release-date {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--light-blue);
+    align-items: center;
+}
+
+.img--single {
+    width: 372px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 64px;
+    align-self: flex-start;
+}
+
+.img--double {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-top: 24px;
+}
+
+.img--phone {
+    width: 129px;
+    height: 193px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 24px;
+    background-image: url("./assets/mobile/image-phone-and-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-color: var(--orange);
+    background-blend-mode: multiply;
+}
+
+.img--glass {
+    width: 220px;
+    border-radius: 20px;
+}
+
+.intro-sub {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.properties {
+    text-align: center;
+}
+
+h2 {
+    width: 255px;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 60px 24px 60px;
+}
+
+.properties__icon {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+    border-radius: 16px;
+    margin: 64px 155px 48px 155px;
+
+}
+
+h3 {
+    width: 327px;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 24px 24px 24px;
+}
+
+p {
+    color: var(--light-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 24px 0 24px;
+}
+
+
+.copyright-text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 96px;
+}

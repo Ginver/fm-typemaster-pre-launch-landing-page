@@ -13,21 +13,19 @@
         justify-content: center;
         align-items: center;
         overflow: unset;
-        /*padding: 55px 165px 0 165px;*/
+        padding: 55px 165px 0 165px;
         /*overflow-x: hidden;*/
         /*background-color: darkseagreen;*/
-        padding: 0;
+        /*padding: 0;*/
     }
 
     .header {
         width: 1100px;
         margin-bottom: 83px;
-
     }
 
     .chunk1 {
         display: flex;
-
     }
 
     .intro {

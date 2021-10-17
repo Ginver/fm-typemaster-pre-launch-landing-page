@@ -14,7 +14,7 @@
     --dark-blue: hsl(220, 50%, 17%);
     --light-blue: hsl(221, 23%, 58%);
     --light-grey: hsl(198, 28%, 93%);
-    --white: hsl(0, 0, 100%);
+    --white: hsl(0, 0%, 100%);
 
 /*    typography*/
     --font-family: 'Barlow', sans-serif;
@@ -103,7 +103,6 @@
 .intro {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
 }
 
 .intro__main {

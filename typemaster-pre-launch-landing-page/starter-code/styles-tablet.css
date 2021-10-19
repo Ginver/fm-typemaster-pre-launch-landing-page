@@ -74,7 +74,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .properties__unit {
         width: 281px;
-        height: 289px;
+        /*height: 289px;*/
     }
 
     .properties__icon {
@@ -83,7 +83,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     h3 {
-        width: 339px;
+        /*width: 339px;*/
         margin: 0 24px 24px 0;
     }
 

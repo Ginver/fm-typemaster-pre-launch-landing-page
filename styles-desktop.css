@@ -24,7 +24,7 @@
         margin-bottom: 83px;
     }
 
-    .chunk1 {
+    .introduction--main {
         display: flex;
     }
 
@@ -85,7 +85,7 @@
         margin-bottom: 0;
     }
 
-    .chunk2 {
+    .introduction--sub {
         display: flex;
     }
 
@@ -122,7 +122,7 @@
         margin-right: 125px;
     }
 
-    .intro--sub {
+    .intro2__sub {
         width: 255px;
         text-align: left;
     }

@@ -10,7 +10,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .header {
         width: 689px;
-
     }
 
     .intro {
@@ -50,7 +49,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         height: 320px;
     }
 
-    .intro--sub {
+    .intro2__sub {
         display: flex;
         justify-content: space-between;
         text-align: unset;

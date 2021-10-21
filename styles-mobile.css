@@ -22,6 +22,14 @@
     --font-weight-S: 500;
     --font-weight-M: bold;
 
+/*    font-size: 16px; 1rem*/
+/*    font-size: 32px; 2rem*/
+/*    font-size: 48px; 3rem*/
+/*    line-height: 26px;*/
+/*    line-height: 36px;*/
+/*    line-height: 48px;*/
+
+
 }
 
 * {
@@ -43,8 +51,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
     font-family: var(--font-family);
+    padding: 24px;
     overflow-x: hidden;
 }
 
@@ -63,9 +71,9 @@
     background-color: var(--orange);
 }
 
-.logo__text {
+.header__text {
+    font-weight: var(--font-weight-M);
     font-size: 16px;
-    font-weight: bold;
     line-height: 26px;
     text-transform: uppercase;
     color: var(--light-grey);
@@ -73,13 +81,13 @@
 }
 
 .btn {
-    border-radius: 8px;
+    font-weight: var(--font-weight-M);
     font-size: 16px;
-    font-weight: bold;
     line-height: 26px;
     text-transform: uppercase;
-    padding: 11px;
+    border-radius: 8px;
     border-style: none;
+    padding: 11px;
 }
 
 .btn--grey {
@@ -91,12 +99,17 @@
     background-color: var(--dark-blue);
     color: var(--light-grey);
 }
+.introduction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-.chunk1 {
+.introduction--main {
     align-self: flex-start;
 }
 
-.chunk2 {
+.introduction--sub {
     align-self: flex-end;
 }
 
@@ -112,7 +125,7 @@
 }
 
 h1, h2, h3 {
-    font-weight: 900;
+    font-weight: var(--font-weight-XL);
     color: var(--dark-blue);
     text-transform: uppercase;
 }
@@ -146,8 +159,8 @@ h1 {
 }
 
 .release-date {
+    font-weight: var(--font-weight-S);
     font-size: 16px;
-    font-weight: 500;
     line-height: 26px;
     text-transform: uppercase;
     color: var(--light-blue);
@@ -180,6 +193,7 @@ h1 {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-right: 24px;
+    /*blend:*/
     background-image: url("./assets/mobile/image-phone-and-keyboard.jpg");
     background-repeat: no-repeat;
     background-color: var(--orange);
@@ -191,7 +205,7 @@ h1 {
     border-radius: 20px;
 }
 
-.intro--sub {
+.intro2__sub {
     text-align: center;
     margin-top: 75px;
 }
@@ -201,10 +215,11 @@ h1 {
 }
 
 h2 {
-    width: 255px;
+    /*width: 255px;*/
     font-size: 32px;
     line-height: 36px;
-    margin: 0 60px 24px 60px;
+    /*margin: 0 60px 24px 60px;*/
+    margin: 0 auto 24px auto;
 }
 
 .properties__icon {
@@ -215,29 +230,30 @@ h2 {
     justify-content: center;
     background-color: var(--orange);
     border-radius: 16px;
-    margin: 64px 155px 48px 155px;
-
+    margin: 64px auto 48px auto;
 }
 
 h3 {
-    width: 327px;
+    /*width: 327px;*/
     font-size: 24px;
     line-height: 28px;
-    margin: 0 24px 24px 24px;
+    /*margin: 0 24px 24px 24px;*/
+    margin-bottom: 24px;
 }
 
 p {
-    color: var(--light-blue);
-    font-weight: 500;
+    font-weight: var(--font-weight-S);
     font-size: 16px;
     line-height: 26px;
-    padding: 0 24px 0 24px;
+    color: var(--light-blue);
+    /*padding: 0 24px 0 24px;*/
+    margin-bottom: 24px;
 }
 
 .copyright-text {
+    text-align: center;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
     margin-top: 96px;
 }
 

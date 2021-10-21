@@ -56,13 +56,25 @@
     overflow-x: hidden;
 }
 
+h1, h2, h3 {
+    font-weight: var(--font-weight-XL);
+    color: var(--dark-blue);
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: var(--font-weight-S);
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--light-blue);
+}
+
 .header {
     width: 327px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 64px;
-
 }
 
 .header__logo {
@@ -105,29 +117,25 @@
     flex-wrap: wrap;
 }
 
-.introduction--main {
-    align-self: flex-start;
-}
+/*.introduction--main {*/
+/*    align-self: flex-start;*/
+/*}*/
 
-.introduction--sub {
-    align-self: flex-end;
-}
+/*.introduction--sub {*/
+/*    align-self: flex-end;*/
+/*}*/
 
-.intro {
-    display: flex;
-    flex-direction: column;
-}
+/*.intro {*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: column;*!*/
+/*}*/
 
 .intro__main {
     width: 327px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-h1, h2, h3 {
-    font-weight: var(--font-weight-XL);
-    color: var(--dark-blue);
-    text-transform: uppercase;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -136,9 +144,10 @@ h1 {
     margin-bottom: 32px;
 }
 
-.intro__main p {
-    padding-left: 0;
-}
+/*.intro__main p {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
 
 .intro__action {
     display: flex;
@@ -164,16 +173,18 @@ h1 {
     line-height: 26px;
     text-transform: uppercase;
     color: var(--light-blue);
-    align-items: center;
 }
 
-.intro__img {
+/*.intro__img {*/
+/*    align-self: flex-start;*/
+
+/*}*/
+
+.img--keyboard {
     width: 372px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 64px;
-    align-self: flex-start;
-/*    waarom werkt align-self niet meer?*/
 }
 
 .square {
@@ -215,10 +226,8 @@ h1 {
 }
 
 h2 {
-    /*width: 255px;*/
     font-size: 32px;
     line-height: 36px;
-    /*margin: 0 60px 24px 60px;*/
     margin: 0 auto 24px auto;
 }
 
@@ -241,12 +250,7 @@ h3 {
     margin-bottom: 24px;
 }
 
-p {
-    font-weight: var(--font-weight-S);
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--light-blue);
-    /*padding: 0 24px 0 24px;*/
+.properties__unit p {
     margin-bottom: 24px;
 }
 

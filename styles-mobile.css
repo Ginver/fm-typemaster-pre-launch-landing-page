@@ -39,14 +39,6 @@
     border: 1px solid red;
 }
 
-/*body {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*padding: 24px;*/
-/*font-family: var(--font-family)*/
-/*}*/
-
 .container {
     display: flex;
     flex-direction: column;
@@ -117,23 +109,16 @@ p {
     flex-wrap: wrap;
 }
 
-/*.introduction--main {*/
-/*    align-self: flex-start;*/
-/*}*/
+.introduction--main {
+    align-self: flex-start;
+}
 
-/*.introduction--sub {*/
-/*    align-self: flex-end;*/
-/*}*/
-
-/*.intro {*/
-/*    !*display: flex;*!*/
-/*    !*flex-direction: column;*!*/
-/*}*/
+.introduction--sub {
+    align-self: flex-end;
+}
 
 .intro__main {
     width: 327px;
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
     display: flex;
     flex-direction: column;
 }
@@ -143,11 +128,6 @@ h1 {
     line-height: 48px;
     margin-bottom: 32px;
 }
-
-/*.intro__main p {*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*}*/
 
 .intro__action {
     display: flex;
@@ -174,11 +154,6 @@ h1 {
     text-transform: uppercase;
     color: var(--light-blue);
 }
-
-/*.intro__img {*/
-/*    align-self: flex-start;*/
-
-/*}*/
 
 .img--keyboard {
     width: 372px;
@@ -243,10 +218,8 @@ h2 {
 }
 
 h3 {
-    /*width: 327px;*/
     font-size: 24px;
     line-height: 28px;
-    /*margin: 0 24px 24px 24px;*/
     margin-bottom: 24px;
 }
 

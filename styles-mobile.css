@@ -42,9 +42,9 @@
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     font-family: var(--font-family);
-    padding: 24px;
+    /*padding: 24px;*/
     overflow-x: hidden;
 }
 
@@ -62,11 +62,12 @@ p {
 }
 
 .header {
-    width: 327px;
+    /*width: 327px;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
+    padding: 24px;
 }
 
 .header__logo {
@@ -105,22 +106,23 @@ p {
 }
 .introduction {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     flex-wrap: wrap;
 }
 
-.introduction--main {
-    align-self: flex-start;
-}
+/*.introduction--main {*/
+/*    align-self: flex-start;*/
+/*}*/
 
-.introduction--sub {
-    align-self: flex-end;
-}
+/*.introduction--sub {*/
+/*    align-self: flex-end;*/
+/*}*/
 
 .intro__main {
     width: 327px;
     display: flex;
     flex-direction: column;
+    padding-left: 24px;
 }
 
 h1 {
@@ -157,9 +159,11 @@ h1 {
 
 .img--keyboard {
     width: 372px;
+    height: 331px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 64px;
+    margin-left: 24px;
 }
 
 .square {
@@ -171,6 +175,7 @@ h1 {
     flex-direction: row;
     align-self: flex-end;
     margin-top: 24px;
+    margin-left: -24px;
 }
 
 .img--phone {
@@ -193,11 +198,13 @@ h1 {
 
 .intro2__sub {
     text-align: center;
-    margin-top: 75px;
+    /*margin-top: 75px;*/
+    padding: 75px 24px 0 24px;
 }
 
 .properties {
     text-align: center;
+    padding: 0 24px;
 }
 
 h2 {
@@ -231,6 +238,6 @@ h3 {
     text-align: center;
     font-size: 16px;
     line-height: 26px;
-    margin-top: 96px;
+    margin-top: 72px;
 }
 

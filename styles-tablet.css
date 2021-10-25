@@ -13,7 +13,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         width: 689px;
     }
 
-    .intro {
+    .intro1 {
         width: 768px;
         display: flex;
         flex-direction: row;
@@ -22,6 +22,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .intro__main {
         width: 339px;
+        padding-left: 0;
     }
 
     .img--keyboard {
@@ -53,6 +54,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         display: flex;
         text-align: unset;
         align-items: center;
+        padding: 75px 0 0 0;
     }
 
     h2 {

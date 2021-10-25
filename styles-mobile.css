@@ -36,23 +36,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
-/*body {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*padding: 24px;*/
-/*font-family: var(--font-family)*/
-/*}*/
-
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-family: var(--font-family);
-    padding: 24px;
     overflow-x: hidden;
 }
 
@@ -70,11 +58,11 @@ p {
 }
 
 .header {
-    width: 327px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
+    padding: 24px;
 }
 
 .header__logo {
@@ -113,29 +101,14 @@ p {
 }
 .introduction {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
-/*.introduction--main {*/
-/*    align-self: flex-start;*/
-/*}*/
-
-/*.introduction--sub {*/
-/*    align-self: flex-end;*/
-/*}*/
-
-/*.intro {*/
-/*    !*display: flex;*!*/
-/*    !*flex-direction: column;*!*/
-/*}*/
-
 .intro__main {
     width: 327px;
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
     display: flex;
     flex-direction: column;
+    padding-left: 24px;
 }
 
 h1 {
@@ -143,11 +116,6 @@ h1 {
     line-height: 48px;
     margin-bottom: 32px;
 }
-
-/*.intro__main p {*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*}*/
 
 .intro__action {
     display: flex;
@@ -175,16 +143,13 @@ h1 {
     color: var(--light-blue);
 }
 
-/*.intro__img {*/
-/*    align-self: flex-start;*/
-
-/*}*/
-
 .img--keyboard {
     width: 372px;
+    height: 331px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 64px;
+    margin-left: 24px;
 }
 
 .square {
@@ -196,6 +161,7 @@ h1 {
     flex-direction: row;
     align-self: flex-end;
     margin-top: 24px;
+    margin-left: -24px;
 }
 
 .img--phone {
@@ -218,11 +184,12 @@ h1 {
 
 .intro2__sub {
     text-align: center;
-    margin-top: 75px;
+    padding: 75px 24px 0 24px;
 }
 
 .properties {
     text-align: center;
+    padding: 0 24px;
 }
 
 h2 {
@@ -243,10 +210,8 @@ h2 {
 }
 
 h3 {
-    /*width: 327px;*/
     font-size: 24px;
     line-height: 28px;
-    /*margin: 0 24px 24px 24px;*/
     margin-bottom: 24px;
 }
 
@@ -258,6 +223,6 @@ h3 {
     text-align: center;
     font-size: 16px;
     line-height: 26px;
-    margin-top: 96px;
+    margin-top: 72px;
 }
 

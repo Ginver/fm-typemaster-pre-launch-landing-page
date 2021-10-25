@@ -1,17 +1,13 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
-and (-webkit-min-device-pixel-ratio: 1) {
-
-    .container {
-        width: 768px;
-        flex-wrap: wrap;
-    }
+@media only screen and (min-width: 768px) {
 
     .header {
-        width: 689px;
+        padding: 40px;
     }
 
-    .intro {
-        width: 768px;
+    .introduction {
+    }
+
+    .intro1 {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -19,10 +15,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .intro__main {
         width: 339px;
-        /*margin-right: 69px;*/
+        padding-left: 0;
+        margin-left: 40px;
+    }
+
+    .btn {
+        padding: 16px 26px;
     }
 
     .img--keyboard {
+        width: 478px;
+        height: 425px;
         margin-top: 0;
         margin-left: 69px;
     }
@@ -30,18 +33,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .intro2 {
         display: flex;
         flex-direction: column;
-        /*align-items: center;*/
     }
 
     .intro2__img {
         align-self: unset;
-        /*justify-content: space-between;*/
+        margin-top: 40px;
+        margin-left: 40px;
     }
 
     .img--phone {
         width: 214px;
         height: 320px;
         border-radius: 20px;
+        margin-right: 30px;
     }
 
     .img--glass {
@@ -50,46 +54,41 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .intro2__sub {
+        width: 100vw;
         display: flex;
-        /*flex-direction: row;*/
-        /*justify-content: space-between;*/
         text-align: unset;
         align-items: center;
+        padding: 72px 40px 0 40px;
     }
 
     h2 {
+        text-align: left;
         margin: 0 60px 0 0;
-        /*align-items: flex-start;*/
     }
 
     .properties {
-        width: 689px;
-        height: 650px;
         display: flex;
-        text-align: unset;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: space-between;
+        text-align: unset;
+        margin-top: 142px;
+        padding: 0 69px 0 40px;
     }
 
     .properties__unit {
         width: 281px;
-        /*height: 289px;*/
     }
 
-    /*.properties__icon {*/
-    /*    margin: 64px 155px 48px 0;*/
-
-    /*}*/
+    .properties__icon {
+        margin: 64px 0 48px 0;
+    }
 
     h3 {
-        /*width: 339px;*/
         margin: 0 24px 24px 0;
     }
 
-    /*p {*/
-    /*    width: 339px;*/
-    /*    padding: 0 24px 0 0;*/
-    /*}*/
+    .properties__unit p {
+        padding: 0 24px 0 0;
+    }
 }
 

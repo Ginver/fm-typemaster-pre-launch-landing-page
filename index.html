@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <link href="styles-mobile.css" rel="stylesheet" type="text/css">
-  <link href="styles-desktop.css" rel="stylesheet" type="text/css">
-  <link href="styles-tablet.css" rel="stylesheet" type="text/css">
+    <link href="styles-tablet.css" rel="stylesheet" type="text/css">
+    <link href="styles-desktop.css" rel="stylesheet" type="text/css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
@@ -52,16 +52,17 @@
 <!--                </picture>-->
 
                 <picture>
+                    <source srcset="./assets/desktop/image-keyboard.jpg"
+                            media="(min-width: 1440px)">
                     <source srcset="./assets/tablet/image-keyboard.jpg"
                             media="(min-width: 768px)">
-<!--                    <source srcset="./assets/mobile/image-glass-and-keyboard.jpg"-->
-<!--                            media="(min-width: 400px)">-->
                     <img class="img--keyboard" src="./assets/mobile/image-keyboard.jpg" alt="keyboard"/>
                 </picture>
 <!--                <img class="img&#45;&#45;keyboard" src="./assets/mobile/image-keyboard.jpg" alt="keyboard"/>-->
             </div>
+            <div class="square square--right"></div>
         </div>
-        <div class="square square--right"></div>
+
     </div>
 
     <div class="introduction--sub">

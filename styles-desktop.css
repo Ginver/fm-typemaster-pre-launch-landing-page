@@ -1,35 +1,37 @@
 @media only screen and (min-width: 1440px) {
 
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    /*body {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    align-items: center;*/
+    /*}*/
 
     .container {
-        width: 1100px;
+        /*width: 1100px;*/
         display: flex;
-        justify-content: center;
+        /*justify-content: center;*/
         align-items: center;
+        flex-wrap: wrap;
         overflow: unset;
-        padding: 55px 165px 0 165px;
+        /*padding: 55px 165px 0 165px;*/
         /*overflow-x: hidden;*/
         /*background-color: darkseagreen;*/
-        /*padding: 0;*/
+        padding: 0;
     }
 
     .header {
-        width: 1100px;
-        margin-bottom: 83px;
+        /*width: 1100px;*/
+        /*margin-bottom: 83px;*/
+        padding: 55px 165px 0 165px;
     }
 
     .introduction--main {
-        width: 1100px;
-        display: flex;
+        /*width: 1100px;*/
+        /*display: flex;*/
     }
 
     .intro1 {
-        width: 1100px;
+        /*width: 1100px;*/
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -37,8 +39,7 @@
 
     .intro__main {
         width: 445px;
-        /*justify-content: space-between;*/
-        /*justify-content: flex-start;*/
+        margin-left: 165px;
     }
 
     .img--keyboard {
@@ -60,6 +61,8 @@
         border-bottom-left-radius: 20px;
         align-self: flex-start;
         margin-left: 30px;
+        position: absolute;
+        right: -120px;
     }
 
     h1 {
@@ -94,10 +97,12 @@
         border-bottom-right-radius: 20px;
         align-self: flex-end;
         margin-right: 30px;
+        position: absolute;
+        left: -120px;
     }
 
     .intro2 {
-        width: 1100px;
+        /*width: 1100px;*/
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -106,6 +111,7 @@
 
     .intro2__img {
         margin-top: 0;
+        margin-left: 165px;
     }
 
     .img--phone {
@@ -125,6 +131,8 @@
     .intro2__sub {
         width: 255px;
         text-align: left;
+        display: block;
+        padding: 0;
     }
 
     h2 {
@@ -137,12 +145,13 @@
     }
 
     .properties {
-        width: 1100px;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         text-align: left;
         margin-top: 168px;
+        padding: 0 165px;
     }
 
     .properties__unit {
@@ -160,7 +169,7 @@
     }
 
     .copyright-text {
-        width: 272px;
+        width: 100vw;
         margin-top: 128px;
         margin-bottom: 39px;
     }

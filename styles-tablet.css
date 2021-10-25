@@ -1,20 +1,13 @@
 @media only screen and (min-width: 768px) {
 
-    /*.container {*/
-    /*    flex-wrap: wrap;*/
-    /*}*/
-
     .header {
-        /*width: 689px;*/
         padding: 40px;
     }
 
     .introduction {
-        /*width: 689px;*/
     }
 
     .intro1 {
-        /*width: 768px;*/
         display: flex;
         flex-direction: row;
         align-items: center;

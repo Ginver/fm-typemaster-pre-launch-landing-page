@@ -36,15 +36,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .container {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     font-family: var(--font-family);
-    /*padding: 24px;*/
     overflow-x: hidden;
 }
 
@@ -62,7 +58,6 @@ p {
 }
 
 .header {
-    /*width: 327px;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,17 +101,8 @@ p {
 }
 .introduction {
     display: flex;
-    /*flex-direction: row;*/
     flex-wrap: wrap;
 }
-
-/*.introduction--main {*/
-/*    align-self: flex-start;*/
-/*}*/
-
-/*.introduction--sub {*/
-/*    align-self: flex-end;*/
-/*}*/
 
 .intro__main {
     width: 327px;
@@ -198,7 +184,6 @@ h1 {
 
 .intro2__sub {
     text-align: center;
-    /*margin-top: 75px;*/
     padding: 75px 24px 0 24px;
 }
 

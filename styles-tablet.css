@@ -1,20 +1,21 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 1) {
 
-    .container {
-        flex-wrap: wrap;
-    }
+    /*.container {*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
 
     .header {
-        width: 689px;
+        /*width: 689px;*/
+        padding: 40px;
     }
 
     .introduction {
-        width: 689px;
+        /*width: 689px;*/
     }
 
     .intro1 {
-        width: 768px;
+        /*width: 768px;*/
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -23,9 +24,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .intro__main {
         width: 339px;
         padding-left: 0;
+        margin-left: 40px;
+    }
+
+    .btn {
+        padding: 16px 26px;
     }
 
     .img--keyboard {
+        width: 478px;
+        height: 425px;
         margin-top: 0;
         margin-left: 69px;
     }
@@ -37,12 +45,15 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .intro2__img {
         align-self: unset;
+        margin-top: 40px;
+        margin-left: 40px;
     }
 
     .img--phone {
         width: 214px;
         height: 320px;
         border-radius: 20px;
+        margin-right: 30px;
     }
 
     .img--glass {
@@ -51,10 +62,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .intro2__sub {
+        width: 100vw;
         display: flex;
         text-align: unset;
         align-items: center;
-        padding: 75px 0 0 0;
+        padding: 72px 40px 0 40px;
     }
 
     h2 {
@@ -63,12 +75,12 @@ and (-webkit-min-device-pixel-ratio: 1) {
     }
 
     .properties {
-        width: 631px;
         display: flex;
         flex-wrap: wrap;
-        text-align: unset;
         justify-content: space-between;
+        text-align: unset;
         margin-top: 142px;
+        padding: 0 69px 0 40px;
     }
 
     .properties__unit {

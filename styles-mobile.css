@@ -40,8 +40,8 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     /*align-items: center;*/
     font-family: var(--font-family);
     /*padding: 24px;*/

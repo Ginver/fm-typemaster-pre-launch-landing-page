@@ -53,7 +53,7 @@
 
     .intro__main p {
         font-size: 18px;
-        line-height: 26px;
+        line-height: var(--line-height-1);
     }
 
     .intro__action {
